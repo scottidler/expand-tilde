@@ -67,9 +67,7 @@ mod serde_support {
     }
 
     /// [`deserialize_tilde_pathbuf`] for `Option<PathBuf>` fields.
-    pub fn deserialize_tilde_pathbuf_opt<'de, D>(
-        deserializer: D,
-    ) -> Result<Option<PathBuf>, D::Error>
+    pub fn deserialize_tilde_pathbuf_opt<'de, D>(deserializer: D) -> Result<Option<PathBuf>, D::Error>
     where
         D: Deserializer<'de>,
     {

@@ -1,3 +1,4 @@
+#![cfg(feature = "serde")]
 //! The serde wrappers are the reason this crate exists rather than everyone
 //! copying five lines. These prove a config field expands at LOAD time.
 
