@@ -1,6 +1,6 @@
 [package]
 name = "expand-tilde"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 license = "MIT"
 description = "Expand a leading ~ in a path, with optional serde support for config fields"
